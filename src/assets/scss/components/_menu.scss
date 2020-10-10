@@ -1,0 +1,34 @@
+.header-section{
+    box-sizing: border-box;
+    background-color: $csecondary;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: calc(100% /3);
+    height: 90vh;
+    color: $ctext;
+    .logo{
+        text-align: center;
+    }
+    li{
+        list-style: none;
+        font-size: $font-default;
+        font-weight: 900;
+        padding-bottom: 2rem;
+        a{
+            text-decoration: none;
+            color: $ctext;
+            transition: .2s all;
+            &:hover{
+                color: $cred;
+            }
+        }
+    }
+    .copyright{
+        background-color: $cprimary;
+        width: 80%;
+        padding: 2rem 3rem;
+        text-align: center;
+    }
+}
