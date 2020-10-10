@@ -4,7 +4,7 @@
         <p >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis, libero ut! Laudantium quaerat, perspiciatis expedita, dolores labore assumenda quo molestiae quos odio nihil minus rem, voluptate id dignissimos? Laboriosam, est.</p>
         <div class="contact-form">
             <h4>Get in Touch</h4>
-            <form action="" method="post" class="contact-form" netlify> 
+            <form action="" method="post" class="contact-form"> 
                 <div class="single-input"> 
                     <label for="name">Name<span>*</span></label>
                     <input type="text" name="name">
