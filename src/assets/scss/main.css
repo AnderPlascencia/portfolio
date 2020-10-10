@@ -275,7 +275,6 @@ main .row .col {
   -webkit-box-flex: 0;
       -ms-flex: 0 1 25%;
           flex: 0 1 25%;
-  cursor: pointer;
 }
 
 .portfolio .gallery__product--img {
